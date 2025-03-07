@@ -1,0 +1,96 @@
+{
+    "CareerCard": {
+        "Title": "IPS Officer",
+        "Enabled": 1,
+        "ImageMale": "images/careers/ips/ips_uniform.jpg",
+        "ImageFemale": "images/ips.png",
+        "Overview": "An IPS Officer is a member of the Indian Police Service, responsible for maintaining law and order, ensuring public safety, and preventing crime. They play a critical role in enforcing the law and building public trust.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Opportunity to serve and protect the community.",
+                "Job stability with attractive benefits.",
+                "Challenging and dynamic work environment.",
+                "Ability to make a significant impact on public safety."
+            ],
+            "Job Challenges": [
+                "High risk and exposure to danger.",
+                "Intense public scrutiny and pressure.",
+                "Irregular working hours and shift duties.",
+                "Emotional stress from dealing with critical incidents."
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "IPS Officers develop strong leadership, crisis management, and decision-making skills while working under pressure.",
+            "Community Impact": "They contribute to public safety by maintaining law and order, which enhances community trust and overall societal well-being."
+        },
+        "Choices": [
+            {
+            "Option": "Accept the role with enthusiasm (Boost Personal Growth)",
+            "PersonalImpact": 10,
+            "CommunityImpact": 0,
+            "Result": "You are determined to excel in your career with dedication and hard work.\nChallenge: High expectations and pressure to perform.\nBenefit: Faster career progression and recognition."
+            },
+            {
+            "Option": "Accept the role cautiously (Balance Personal & Community)",
+            "PersonalImpact": 5,
+            "CommunityImpact": 5,
+            "Result": "You take a measured approach, balancing responsibilities and public expectations.\nChallenge: Finding the right balance between authority and approachability.\nBenefit: Stable growth with strong community support."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Initial Challenge 1",
+            "BackgroundImage": "images/careers/ips/protest_scene.jpg",
+            "Description": "An entry-level IPS Officer is confronted with a local protest that threatens public order. The officer must decide how to handle the situation while ensuring safety and maintaining community trust.",
+            "DecisionCards": [
+                {
+                    "Option": "Engage in dialogue with protest organizers to address their concerns and de-escalate tensions.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 5
+                    }
+                },
+                {
+                    "Option": "Deploy a strategic police presence to control the situation and ensure public safety.",
+                    "Outcomes": {
+                        "PersonalImpact": 2,
+                        "CommunityImpact": 4
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Advanced Challenge 1",
+            "BackgroundImage": "images/careers/ips/crime_wave.jpg",
+            "Description": "Facing a surge in criminal activities, an IPS Officer must balance strict enforcement with maintaining community relations during a prolonged crime wave.",
+            "DecisionCards": [
+                {
+                    "Option": "Implement community policing initiatives to build trust while enforcing the law strictly.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Adopt a zero-tolerance approach to deter criminal activity, even if it strains community relations.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 5
+                    }
+                }
+            ]
+        }
+    ],
+    "Result":
+        {
+            "Achieved": "Congratulations! You've established yourself as a legendary IPS Officer, earning the public’s unwavering trust!",
+            "AchievedImage": "images/careers/ips/congrats.jpg",
+            "Moderate":"You've made a solid impact, but there’s still more to achieve in your career!",
+            "ModerateImage":"images/careers/ips/score_less_than_12.jpg",
+            "Retry":"Your journey as an IPS Officer ends here... but there's always another chance to rewrite your story!",
+            "RetryImage":"images/careers/ips/score_less_than_8.jpg",
+            "Quit":"Game Over!",
+            "QuitImage":"images/careers/ips/game_over.jpg"
+        }
+}
