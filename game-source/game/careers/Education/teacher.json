@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "Teacher",
+        "Enabled": 1,
+        "ImageMale": "images/careers/teacher/teacher.png",
+        "ImageFemale": "images/careers/teacher/teacher.png",
+        "Overview": "Teachers play a crucial role in shaping the minds and futures of students. They create lesson plans, deliver educational materials, and assess student performance to foster a conducive learning environment. Beyond academics, teachers also mentor and guide students, helping them develop socially and emotionally.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Job security due to ongoing demand for educators",
+                "Opportunity for personal growth and continuous learning",
+                "Positive societal contribution by shaping future generations",
+                "Work-related vacations and schedule flexibility"
+            ],
+            "Job Challenges": [
+                "Managing a diverse classroom with varying learning abilities",
+                "Stress from high expectations and assessment pressures",
+                "Balancing administrative duties with teaching",
+                "Dealing with limited resources and support"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "Being a teacher allows one to develop strong communication and leadership skills while continually learning through student interactions and educational developments, leading to personal fulfillment.",
+            "Community Impact": "Through education, teachers significantly influence their students' lives and contribute to the broader community by fostering informed and engaged citizens."
+        },
+        "Choices": [
+            {
+                "Option": "Focus on maximizing personal growth through continuous education and skill refinement.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 2,
+                "Result": "This path enhances your teaching skills and knowledge significantly, leading to personal satisfaction but may limit your community involvement."
+            },
+            {
+                "Option": "Aim to balance personal development with community engagement by participating in local educational programs.",
+                "PersonalImpact": 3,
+                "CommunityImpact": 5,
+                "Result": "This choice allows you to develop professionally while making a meaningful impact on students and the community around you."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Classroom Management Challenge",
+            "BackgroundImage": "images/careers/teacher/classroom_management.jpg",
+            "Description": "During a lesson, a group of students begins to disrupt the class, making it challenging for others to learn. As the teacher, you must decide how to restore order while ensuring all students feel valued and included.",
+            "DecisionCards": [
+                {
+                    "Option": "Implement a fun engagement activity to refocus attention.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 5
+                    }
+                },
+                {
+                    "Option": "Enforce strict discipline measures to regain control.",
+                    "Outcomes": {
+                        "PersonalImpact": 2,
+                        "CommunityImpact": 3
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Innovative Lesson Planning",
+            "BackgroundImage": "images/careers/teacher/lesson_planning.jpg",
+            "Description": "You have the opportunity to plan a unique interdisciplinary lesson that combines science and art. The challenge lies in how effectively you can demonstrate the connections to the students and engage them in the process.",
+            "DecisionCards": [
+                {
+                    "Option": "Introduce hands-on experiments alongside art projects.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Stick to traditional methods of teaching to ensure clarity.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become an inspiring figure, making a lasting impact on your students and the community!",
+        "AchievedImage": "images/careers/teacher/achieved_teacher.jpg",
+        "Moderate": "You've made a positive difference, but there\u2019s still room for greater influence.",
+        "ModerateImage": "images/careers/teacher/moderate_teacher.jpg",
+        "Retry": "Your journey concludes here\u2026 however, there's always a chance to try again!",
+        "RetryImage": "images/careers/teacher/retry_teacher.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/teacher/game_over.jpg"
+    }
+}

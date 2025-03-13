@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "IAS Officer",
+        "Enabled": 1,
+        "ImageMale": "images/careers/IAS_officer/ias_officer.png",
+        "ImageFemale": "images/careers/IAS_officer/ias_officer.png",
+        "Overview": "Indian Administrative Service (IAS) Officers are responsible for implementing government policies and serving the public through various administrative roles. Their responsibilities include law enforcement, overseeing developmental projects, and ensuring effective governance. IAS Officers play a crucial role in maintaining order, implementing reforms, and addressing local issues, making it a vital career in shaping the nation\u2019s future.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Job Security",
+                "Prestigious Career",
+                "Opportunity for impactful work",
+                "Diverse career paths within administration"
+            ],
+            "Job Challenges": [
+                "High levels of stress",
+                "Long working hours",
+                "Political pressure",
+                "Maintaining work-life balance"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "Pursuing a career as an IAS Officer enhances personal development through the acquisition of leadership skills, decision-making abilities, and critical thinking. Continuous learning and engagement in various national issues lead to profound personal fulfillment.",
+            "Community Impact": "This role significantly benefits society by implementing policies and programs that directly impact the lives of citizens. IAS Officers address community needs through effective governance and contribute to social change."
+        },
+        "Choices": [
+            {
+                "Option": "Focus on personal development through high-level training and specialized projects.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "You become a well-rounded individual with extensive knowledge but are less involved with immediate community concerns."
+            },
+            {
+                "Option": "Engage actively with community programs while balancing personal growth.",
+                "PersonalImpact": 4,
+                "CommunityImpact": 5,
+                "Result": "You effectively strengthen community ties and improve local governance, establishing a reputation as an approachable leader."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Crisis Management During Floods",
+            "BackgroundImage": "images/careers/IAS_officer/flood_management.jpg",
+            "Description": "As an IAS Officer, you are tasked with managing a crisis during a sudden flood that displaces thousands. Coordination between government agencies, NGOs, and providing timely assistance is paramount. You must make critical decisions under pressure to ensure that affected citizens receive help swiftly and effectively.",
+            "DecisionCards": [
+                {
+                    "Option": "Mobilize emergency resources immediately.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 7
+                    }
+                },
+                {
+                    "Option": "Delay action for careful planning.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 2
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Policy Implementation for Health Services",
+            "BackgroundImage": "images/careers/IAS_officer/health_services.jpg",
+            "Description": "You are in charge of implementing a new health policy aimed at improving access to healthcare in rural areas. The challenge lies in addressing resistance from local authorities and ensuring community awareness and acceptance of the new policy. Engaging the community effectively will be key to the success of the program.",
+            "DecisionCards": [
+                {
+                    "Option": "Organize community workshops to explain the benefits.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Enforce policy changes without community consultation.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a respected leader in your field!",
+        "AchievedImage": "images/careers/IAS_officer/achieved_ias.jpg",
+        "Moderate": "You've made a solid impact but can achieve more.",
+        "ModerateImage": "images/careers/IAS_officer/moderate_ias.jpg",
+        "Retry": "Your journey ends here\u2026 but you can try again!",
+        "RetryImage": "images/careers/IAS_officer/retry_ias.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/IAS_officer/game_over.jpg"
+    }
+}

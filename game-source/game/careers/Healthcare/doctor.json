@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "Doctor",
+        "Enabled": 1,
+        "ImageMale": "images/careers/doctor/doctor.png",
+        "ImageFemale": "images/careers/doctor/doctor.png",
+        "Overview": "Doctors are highly trained healthcare professionals who diagnose and treat illnesses, manage patient care, and promote health and wellness in communities. They play a pivotal role in saving lives and improving the overall quality of life. Their work requires a deep understanding of human biology, ethical practice, and strong communication skills to interact effectively with patients and their families.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Job Security",
+                "High Earning Potential",
+                "Ability to Make a Real Difference in Patients' Lives",
+                "Continuous Learning and Personal Development"
+            ],
+            "Job Challenges": [
+                "Long Working Hours",
+                "High Stress and Emotional Drain",
+                "Dealing with Difficult Patients and Families",
+                "Need for Continuous Education and Certification"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "PersonalGrowth": "A career in medicine fosters personal growth by enhancing critical thinking, resilience, empathy, and the ability to make informed decisions under pressure. Doctors continually develop their skills through education, workshops, and hands-on experiences.",
+            "CommunityImpact": "Doctors provide essential services that enhance community health, from preventative care to emergency interventions. Their work directly contributes to reducing illness and improving the quality of life in society."
+        },
+        "Choices": [
+            {
+                "Option": "Pursue a specialization to deepen your medical expertise and skills.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "Specialization requires additional years of study and training, leading to high stress and financial commitments. You gain in-depth knowledge and can offer advanced treatments to patients, increasing your professional respect."
+            },
+            {
+                "Option": "Focus on community health initiatives while practicing general medicine.",
+                "PersonalImpact": 3,
+                "CommunityImpact": 5,
+            "Result": "Community projects may involve resource constraints and can limit personal income growth. You can significantly improve community health awareness and access to care, impacting many lives positively."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Emergency Surgery Crisis",
+            "BackgroundImage": "images/careers/doctor/emergency_room.jpg",
+            "Description": "In the midst of a busy night at the hospital, a trauma patient is rushed in after a severe car accident. As the on-call doctor, you must make quick decisions about surgery while coordinating with various team members under immense pressure. Every second counts, and the uncertainty about the patient's condition weighs heavily on your conscience.",
+            "DecisionCards": [
+                {
+                    "Option": "Perform emergency surgery immediately.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 7
+                    }
+                },
+                {
+                    "Option": "Stabilize the patient before proceeding with surgery.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 5
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Chronic Illness Management",
+            "BackgroundImage": "images/careers/doctor/chronic_illness.jpg",
+            "Description": "You have a follow-up appointment with a patient suffering from diabetes. They struggle with diet and medication adherence, which affects their health. It's crucial to educate them on managing their illness effectively while also addressing emotional barriers to treatment. Building trust and understanding with the patient is key to ensuring compliance and positive outcomes.",
+            "DecisionCards": [
+                {
+                    "Option": "Create a comprehensive management plan including lifestyle changes.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Focus primarily on medication adjustments.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a respected leader in your field!",
+        "AchievedImage": "images/careers/doctor/successful_doctor.jpg",
+        "Moderate": "You've made a solid impact but can achieve more.",
+        "ModerateImage": "images/careers/doctor/average_doctor.jpg",
+        "Retry": "Your journey ends here, but you can try again!",
+        "RetryImage": "images/careers/doctor/failure.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/doctor/game_over.jpg"
+    }
+}

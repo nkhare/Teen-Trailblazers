@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "School Administrator",
+        "Enabled": 1,
+        "ImageMale": "images/careers/school_administrator/school_administrator.jpg",
+        "ImageFemale": "images/careers/school_administrator/school_administrator.jpg",
+        "Overview": "School administrators play a crucial role in shaping the educational environment. They oversee school operations, manage staff, and implement policies to ensure a safe and effective learning space for all students. Their work directly influences student achievement and the overall educational experience, making them vital to the success of schools and communities.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Opportunity to influence educational policies",
+                "Strong job security in the education sector",
+                "Access to professional development opportunities",
+                "Ability to make a lasting impact on students' lives"
+            ],
+            "Job Challenges": [
+                "High levels of stress due to managing multiple responsibilities",
+                "Navigating budgetary constraints and funding issues",
+                "Balancing administrative duties with educational goals",
+                "Dealing with varying expectations from students, parents, and staff"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "This career enhances personal development by improving leadership skills, expanding knowledge in educational practices, and fostering personal fulfillment from contributing to student success.",
+            "Community Impact": "School administrators play a significant role in the community by developing programs that cater to diverse student needs, promoting community involvement in schools, and serving as a bridge between the school and the wider community."
+        },
+        "Choices": [
+            {
+                "Option": "Prioritize professional development for personal career advancement.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "By focusing on personal growth, you enhance your leadership skills and professional expertise, but may miss opportunities to address immediate community needs."
+            },
+            {
+                "Option": "Create programs to engage the community while also developing professionally.",
+                "PersonalImpact": 4,
+                "CommunityImpact": 5,
+                "Result": "This approach ensures that you grow while making a strong positive impact on the community, fostering strong relationships with families and stakeholders."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "School Budget Crisis",
+            "BackgroundImage": "images/careers/school_administrator/school_budget_crisis.jpg",
+            "Description": "During an unexpected budget cut, the school administrator must decide how to allocate limited resources. The pressure mounts as staff and parents express concerns over potential program reductions. A strategic approach is essential to address immediate needs while considering long-term impacts on student education.",
+            "DecisionCards": [
+                {
+                    "Option": "Implement cuts across various programs equally.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 4
+                    }
+                },
+                {
+                    "Option": "Engage the community in fundraising efforts to mitigate cuts.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 6
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Staff Morale Decline",
+            "BackgroundImage": "images/careers/school_administrator/staff_morale_decline.jpg",
+            "Description": "After multiple changes to school policy, staff morale has hit an all-time low. The school administrator must find ways to rejuvenate the teaching staff while also addressing their concerns. This situation requires tact and creativity to restore a positive school culture.",
+            "DecisionCards": [
+                {
+                    "Option": "Conduct anonymous surveys to gather feedback and address concerns.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 5
+                    }
+                },
+                {
+                    "Option": "Reinstate previously popular programs without consultation.",
+                    "Outcomes": {
+                        "PersonalImpact": 2,
+                        "CommunityImpact": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a respected leader in your field!",
+        "AchievedImage": "images/careers/school_administrator/achieved_admin.jpg",
+        "Moderate": "You've made a solid impact but can achieve more.",
+        "ModerateImage": "images/careers/school_administrator/moderate_admin.jpg",
+        "Retry": "Your journey ends here\u2026 but you can try again!",
+        "RetryImage": "images/careers/school_administrator/retry_admin.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/school_administrator/game_over.jpg"
+    }
+}

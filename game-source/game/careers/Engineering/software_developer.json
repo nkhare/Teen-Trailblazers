@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "Software Developer",
+        "Enabled": 1,
+        "ImageMale": "images/careers/software_developer/software_developer.png",
+        "ImageFemale": "images/careers/software_developer/software_developer_female.jpg",
+        "Overview": "Software Developers play a critical role in designing, coding, testing, and maintaining software applications. They transform user requirements into functional software while also solving complex problems through innovative programming. As technology becomes increasingly integral to everyday life, the importance of skilled software developers continues to rise, shaping the digital landscape.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "High demand for skilled professionals",
+                "Opportunity for remote work",
+                "Potential for high earnings",
+                "Continuous learning and growth in technology"
+            ],
+            "Job Challenges": [
+                "Long hours and tight deadlines",
+                "Constantly changing technology and tools",
+                "Potential isolation while working remotely",
+                "Managing client expectations and project scope"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "This career enhances personal development by fostering critical thinking, creativity, and problem-solving skills. Developers are often presented with new technologies to master, which promotes continuous learning and adaptability.",
+            "Community Impact": "By creating software solutions, developers help to address community needs, improve services, and increase efficiency across industries, ultimately enhancing the quality of life for many individuals."
+        },
+        "Choices": [
+            {
+                "Option": "Focus on rapid skill acquisition and innovation-driven projects.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "You become a highly skilled individual with the ability to create groundbreaking technologies, but community-focused contributions may take a backseat."
+            },
+            {
+                "Option": "Engage in projects that balance personal growth with community service.",
+                "PersonalImpact": 4,
+                "CommunityImpact": 5,
+                "Result": "You grow personally through diverse experiences while actively giving back to the community through impactful software solutions."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "System Outage Crisis",
+            "BackgroundImage": "images/careers/software_developer/system_outage.jpg",
+            "Description": "You're on call when the company's main application crashes unexpectedly, affecting thousands of users. With limited information and a ticking clock, you need to investigate and resolve the issue quickly to restore services. The pressure is on to think critically and act swiftly.",
+            "DecisionCards": [
+                {
+                    "Option": "Dive into the codebase to identify the bug.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 5
+                    }
+                },
+                {
+                    "Option": "Gather input from the team before taking action.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 6
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "New Feature Development",
+            "BackgroundImage": "images/careers/software_developer/new_feature.jpg",
+            "Description": "Your team is tasked with developing a new feature for a popular application, and the deadline is fast approaching. Different visions for the feature have emerged among team members, and you need to find a way to align the team while meeting user expectations and the timeline.",
+            "DecisionCards": [
+                {
+                    "Option": "Propose a collaborative workshop to align ideas.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Push forward with your own concept of the feature.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a respected leader in your field!",
+        "AchievedImage": "images/careers/software_developer/achieved.jpg",
+        "Moderate": "You've made a solid impact but can achieve more.",
+        "ModerateImage": "images/careers/software_developer/moderate.jpg",
+        "Retry": "Your journey ends here\u2026 but you can try again!",
+        "RetryImage": "images/careers/software_developer/improve.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/software_developer/game_over.jpg"
+    }
+}

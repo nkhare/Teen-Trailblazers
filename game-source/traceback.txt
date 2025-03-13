@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 69, in script
+    scene expression career['CareerCard']['ImageMale']
+  File "game/script.rpy", line 69, in <module>
+    scene expression career['CareerCard']['ImageMale']
+TypeError: string indices must be integers
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 69, in script
+    scene expression career['CareerCard']['ImageMale']
+  File "C:\Users\hardi\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1251, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\hardi\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 1073, in show_imspec
+    expression = renpy.python.py_eval(expression)
+  File "C:\Users\hardi\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\hardi\Downloads\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 69, in <module>
+    scene expression career['CareerCard']['ImageMale']
+TypeError: string indices must be integers
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.4.24120703
+Teen-Trailblazers 1.0
+Thu Mar 13 15:53:37 2025

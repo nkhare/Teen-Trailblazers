@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "Nurse",
+        "Enabled": 1,
+        "ImageMale": "images/careers/nurse/nurse.png",
+        "ImageFemale": "images/careers/nurse/nurse.png",
+        "Overview": "Nurses play a critical role in the healthcare system, providing compassionate care to patients across a variety of settings. They assess patient needs, administer medications, and support doctors in medical procedures. With a focus on patient education and emotional support, nurses contribute significantly to improving health outcomes and patient well-being.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Job security due to high demand for healthcare professionals",
+                "Opportunities for specialization in various fields such as pediatrics, geriatrics, and emergency care",
+                "Personal fulfillment from helping others and making a difference in patients' lives",
+                "Flexible work schedules and various work settings to choose from"
+            ],
+            "Job Challenges": [
+                "High-stress environment, especially in emergency settings",
+                "Long hours that can affect work-life balance",
+                "Emotional strain from patient suffering and loss",
+                "Risk of burnout due to demanding workload and responsibilities"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "A career as a nurse fosters continuous learning and professional development. Nurses gain hands-on experience in diverse medical situations and enhance their communication, critical thinking, and empathy skills, leading to significant personal fulfillment.",
+            "Community Impact": "Nurses are vital in promoting public health and wellness. They educate communities about health best practices, provide preventive care, and serve as advocates for patients, contributing to improved health outcomes on a larger scale."
+        },
+        "Choices": [
+            {
+                "Option": "Focus on advancing your education and skills to become a specialized nurse or nurse practitioner.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "By choosing this path, you will master specialized medical practices, enhancing your career prospects and providing high-level care to your patients."
+            },
+            {
+                "Option": "Engage in community outreach programs while maintaining your nursing role for a balanced impact.",
+                "PersonalImpact": 3,
+                "CommunityImpact": 5,
+                "Result": "This choice allows you to balance personal growth with significant contributions to community health initiatives, fostering a healthier society."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Emergency Surgery Crisis",
+            "BackgroundImage": "images/careers/nurse/emergency_surgery.jpg",
+            "Description": "During a busy night shift, a multi-casualty incident occurs, with several patients arriving at once from a road accident. As crucial medical personnel, nurses must triage patients quickly, ensuring the most critical receive immediate attention while providing support to families affected by the chaos.",
+            "DecisionCards": [
+                {
+                    "Option": "Prioritize care for the most critical patients and assist in the surgery.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 7
+                    }
+                },
+                {
+                    "Option": "Focus on comforting families and managing communication during the crisis.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 5
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Chronic Care Management",
+            "BackgroundImage": "images/careers/nurse/chronic_care.jpg",
+            "Description": "In a community clinic, a nurse works with patients suffering from chronic illnesses. This scenario involves creating personalized care plans, providing education on disease management, and helping patients make lifestyle changes to improve their health outcomes over time.",
+            "DecisionCards": [
+                {
+                    "Option": "Develop comprehensive care plans tailored to each patient\u2019s needs.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Host monthly community health seminars to educate more patients on chronic illness management.",
+                    "Outcomes": {
+                        "PersonalImpact": 3,
+                        "CommunityImpact": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a respected leader in your field!",
+        "AchievedImage": "images/careers/nurse/achieved_nurse.jpg",
+        "Moderate": "You've made a solid impact but can achieve more.",
+        "ModerateImage": "images/careers/nurse/moderate_nurse.jpg",
+        "Retry": "Your journey ends here\u2026 but you can try again!",
+        "RetryImage": "images/careers/nurse/retry_nurse.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/nurse/game_over.jpg"
+    }
+}

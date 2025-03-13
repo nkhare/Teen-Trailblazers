@@ -1,0 +1,95 @@
+{
+    "CareerCard": {
+        "Title": "Civil Engineer",
+        "Enabled": 1,
+        "ImageMale": "images/careers/civil_engineer/civil_engineer.jpg",
+        "ImageFemale": "images/careers/civil_engineer/civil_engineer.jpg",
+        "Overview": "Civil Engineers play a crucial role in designing, constructing, and maintaining infrastructure projects such as roads, bridges, and buildings. They apply engineering principles to ensure public safety, project efficiency, and sustainability. As key contributors to urban developments, they shape the environments where communities thrive, making their work both impactful and rewarding.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "Job security due to ongoing demand for infrastructure development",
+                "Opportunity for creativity in designing innovative structures",
+                "Potential for career advancement through specialization and leadership roles",
+                "Satisfaction from contributing to community safety and well-being"
+            ],
+            "Job Challenges": [
+                "Long hours on project sites can strain work-life balance",
+                "Need to comply with strict regulations and codes",
+                "High responsibility in ensuring safety, leading to potential stress",
+                "Challenges in project management and teamwork dynamics"
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "A career in civil engineering promotes personal development through the acquisition of specialized technical skills, project management expertise, and problem-solving capabilities. Continuous learning and adaptation are integral, fostering both personal and professional fulfillment.",
+            "Community Impact": "Civil engineers play a vital role in shaping public spaces and infrastructure that enhance quality of life. Their work not only improves accessibility and safety but also contributes to economic development and environmental sustainability in communities."
+        },
+        "Choices": [
+            {
+                "Option": "Focus on innovative sustainable building practices to maximize personal growth.",
+                "PersonalImpact": 5,
+                "CommunityImpact": 3,
+                "Result": "By choosing this path, you cultivate advanced engineering methods and enhance your reputation as a forward-thinking professional while slightly benefiting the community."
+            },
+            {
+                "Option": "Engage in community-focused projects to balance personal and community impact.",
+                "PersonalImpact": 3,
+                "CommunityImpact": 5,
+                "Result": "Opting for this choice strengthens community ties and addresses local infrastructure needs, though personal growth opportunities may be less extensive."
+            }
+        ]
+    },
+    "Scenarios": [
+        {
+            "Title": "Bridge Collapse Investigation",
+            "BackgroundImage": "images/careers/civil_engineer/bridge_collapse.jpg",
+            "Description": "A recently constructed bridge has collapsed, leading to serious injuries and disruptions. As a civil engineer, you are called to investigate the cause of the failure. Your findings will have significant implications for public safety and future construction regulations. The pressure is on to analyze the structural integrity and propose solutions swiftly.",
+            "DecisionCards": [
+                {
+                    "Option": "Conduct an in-depth analysis of the construction materials used.",
+                    "Outcomes": {
+                        "PersonalImpact": 7,
+                        "CommunityImpact": 6
+                    }
+                },
+                {
+                    "Option": "Collaborate with regulatory authorities to implement immediate safety measures.",
+                    "Outcomes": {
+                        "PersonalImpact": 5,
+                        "CommunityImpact": 8
+                    }
+                }
+            ]
+        },
+        {
+            "Title": "Urban Water Supply Challenge",
+            "BackgroundImage": "images/careers/civil_engineer/water_supply.jpg",
+            "Description": "In an urban area facing a water supply crisis, you are tasked with designing a sustainable water management system. The project needs to balance environmental concerns with the immediate needs of the community. Your engineering solutions will directly affect the lives of thousands, making this a significant challenge.",
+            "DecisionCards": [
+                {
+                    "Option": "Develop a comprehensive water recycling program.",
+                    "Outcomes": {
+                        "PersonalImpact": 6,
+                        "CommunityImpact": 7
+                    }
+                },
+                {
+                    "Option": "Propose a new pipeline project at a lower cost.",
+                    "Outcomes": {
+                        "PersonalImpact": 4,
+                        "CommunityImpact": 5
+                    }
+                }
+            ]
+        }
+    ],
+    "Result": {
+        "Achieved": "You've become a pioneering figure in civil engineering, renowned for your innovative contributions!",
+        "AchievedImage": "images/careers/civil_engineer/achieved_civil_engineer.jpg",
+        "Moderate": "You've made a credible impact on infrastructure but there's still more potential for greatness.",
+        "ModerateImage": "images/careers/civil_engineer/moderate_civil_engineer.jpg",
+        "Retry": "Your journey ends here\u2026 but you have the opportunity to learn and try again!",
+        "RetryImage": "images/careers/civil_engineer/retry_civil_engineer.jpg",
+        "Quit": "Game Over!",
+        "QuitImage": "images/careers/civil_engineer/game_over.jpg"
+    }
+}
