@@ -1,4 +1,4 @@
-# Career Card Game - A Ren'Py Visual Novel
+# Teen-Trailblazer - A Ren'Py Visual Novel
 
 Welcome to the **Career Card Game**! This interactive visual novel, built using **Ren'Py**, offers an engaging experience where players navigate through different career paths, face real-world scenarios, and make decisions that impact their journey.
 
