@@ -2,6 +2,10 @@
 
 Welcome to the **Teen-Trailblazer Game**! This interactive visual novel, built using **Ren'Py**, offers an engaging experience where players navigate through different career paths, face real-world scenarios, and make decisions that impact their journey.
 
+🧑‍💻 About Ren'Py
+
+[Ren'Py](https://www.renpy.org) is a popular visual novel engine that simplifies the process of creating interactive storytelling experiences. It supports branching narratives, character dialogue, and multimedia integration, making it a versatile choice for both novice and experienced game developers. With its user-friendly scripting language and customizable features, Ren'Py allows creators to design engaging stories like the Career Card Game, where player choices drive the narrative.
+
 ## 🚀 Features
 
 - Choose from multiple career options like **Doctor**, **Civil Engineer**, **IPS Officer**, and **School Administrator**.
@@ -34,6 +38,16 @@ Welcome to the **Teen-Trailblazer Game**! This interactive visual novel, built u
    - **Achieved**: Become a respected leader.
    - **Moderate**: Perform well but have room to grow.
    - **Retry**: Face setbacks but try again.
+
+⚙️ Making Changes
+
+The following files can be found in the game directory:
+
+script.rpy: Located at game/script.rpy, this file manages scenarios, dialogues, decision branches, and game logic.
+
+screens.rpy: Located at game/screens.rpy, this file is responsible for customizing UI elements, adjusting dialogue screens, and interactive components.
+
+These files are essential for modifying how the story progresses and how user interactions are handled. Feel free to explore and adjust them to enhance your gaming experience.
 
 ## ➕ How to Add a New Career
 
