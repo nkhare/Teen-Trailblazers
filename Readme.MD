@@ -2,7 +2,7 @@
 
 Welcome to the **Teen-Trailblazer Game**! This interactive visual novel, built using **Ren'Py**, offers an engaging experience where players navigate through different career paths, face real-world scenarios, and make decisions that impact their journey.
 
-🧑‍💻 About Ren'Py
+## 🧑‍💻 About Ren'Py
 
 [Ren'Py](https://www.renpy.org) is a popular visual novel engine that simplifies the process of creating interactive storytelling experiences. It supports branching narratives, character dialogue, and multimedia integration, making it a versatile choice for both novice and experienced game developers. With its user-friendly scripting language and customizable features, Ren'Py allows creators to design engaging stories like the Career Card Game, where player choices drive the narrative.
 
