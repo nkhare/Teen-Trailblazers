@@ -112,5 +112,5 @@ You can easily add a new career using our Gradio app, which helps generate the n
 
 ---
 
-## 🚀 Enjoy your career adventure! 🚀
+##### 🚀 Enjoy your career adventure! 🚀
 
