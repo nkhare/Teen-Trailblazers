@@ -112,11 +112,11 @@ You can easily add a new career using our Gradio app, which helps generate the n
    Save the above file as text-to-audio-generator.py and change the `text` accordingly.
 - Install `gtts` package
    ```bash
-      pip install gtts
+      $ pip install gtts
    ```
 - Run the audio generator script
    ```bash
-    python text-to-audio-generator.py
+      $ python text-to-audio-generator.py
     ```
 - You can use this audio files to modify or add new audio to the game
 
