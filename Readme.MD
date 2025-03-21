@@ -126,5 +126,5 @@ You can easily add a new career using our Gradio app, which helps generate the n
 2. Verify the scenarios, images, and audio are displayed correctly.
 ---
 
-##### 🚀 Enjoy your career adventure! 🚀
+#### 🚀 Enjoy your career adventure! 🚀
 
