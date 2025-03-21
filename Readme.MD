@@ -39,13 +39,13 @@ Welcome to the **Teen-Trailblazer Game**! This interactive visual novel, built u
    - **Moderate**: Perform well but have room to grow.
    - **Retry**: Face setbacks but try again.
 
-⚙️ Making Changes
+## ⚙️ Making Changes
 
 The following files can be found in the game directory:
 
-script.rpy: Located at game/script.rpy, this file manages scenarios, dialogues, decision branches, and game logic.
+**script.rpy**: Located at game/script.rpy, this file manages scenarios, dialogues, decision branches, and game logic.
 
-screens.rpy: Located at game/screens.rpy, this file is responsible for customizing UI elements, adjusting dialogue screens, and interactive components.
+**screens.rpy**: Located at game/screens.rpy, this file is responsible for customizing UI elements, adjusting dialogue screens, and interactive components.
 
 These files are essential for modifying how the story progresses and how user interactions are handled. Feel free to explore and adjust them to enhance your gaming experience.
 
