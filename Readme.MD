@@ -110,7 +110,7 @@ You can easily add a new career using our Gradio app, which helps generate the n
       tts.save("welcome.mp3")
    ```
    Save the above file as text-to-audio-generator.py and change the `text` accordingly.
-- Install gtts package
+- Install `gtts` package
    ```bash
       pip install gtts
    ```
