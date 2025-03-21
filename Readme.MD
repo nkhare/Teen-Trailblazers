@@ -100,11 +100,7 @@ You can easily add a new career using our Gradio app, which helps generate the n
     python text-to-audio-generator.py
     ```
 
-### Step 5: Additional Changes
-
-- If further adjustments are needed for a new career, refer to `script.rpy` and `screens.rpy` for scenario-specific configurations and dialogue management.
-
-### Step 6: Test Your Career Path
+### Step 5: Test Your Career Path
 
 1. Launch the game and select the new career.
 2. Verify the scenarios, images, and audio are displayed correctly.
