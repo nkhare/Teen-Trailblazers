@@ -102,9 +102,23 @@ You can easily add a new career using our Gradio app, which helps generate the n
 ### Step 4: Generate Additional Audio (Optional)
 
 - If you need more audio files, you can download them from external sources or generate them using the following script:
-    ```bash
+   ```python
+      from gtts import gTTS
+      text = "Welcome to Teen-Trailblazer Game. It's career related game which helps you to choose your career. So are you ready? Let's Play"
+      tts = gTTS(text, lang='en')
+      print("audio generated")
+      tts.save("welcome.mp3")
+   ```
+   save the above file as text-to-audio-generator.py
+- Install gtts package
+   ```bash
+      pip install gtts
+   ```
+- Run the audio generator script
+   ```bash
     python text-to-audio-generator.py
     ```
+- You can use this audio files to modify or add new audio to the game
 
 ### Step 5: Test Your Career Path
 
