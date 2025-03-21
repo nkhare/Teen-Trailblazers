@@ -68,12 +68,12 @@ You can easily add a new career using our Gradio app, which helps generate the n
 2. Ensure the images are of appropriate resolution for the game interface.
 
 ### Step 3: Place Files into the Game
-1. place the json file under game folder 
+1. Place the json file under game folder 
 ```bash
  game/careers/<career_category>/career_name.json
 ```
-   - career_category like Healthcare, CivilServices, Education, Engineering etc.
-   - caree_name like doctor, nurse, teacher, software_developer etc.
+   - `career_category` like Healthcare, CivilServices, Education, Engineering etc.
+   - `caree_name` like doctor, nurse, teacher, software_developer etc.
 
 2. Place the images under the following directory:
     ```bash
