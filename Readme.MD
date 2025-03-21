@@ -72,9 +72,8 @@ You can easily add a new career using our Gradio app, which helps generate the n
 ```bash
  game/careers/<career_category>/career_name.json
 ```
-career_category like Healthcare, CivilServices, Education, Engineering etc.
-
-caree_name like doctor, nurse, teacher, software_developer etc.
+   - career_category like Healthcare, CivilServices, Education, Engineering etc.
+   - caree_name like doctor, nurse, teacher, software_developer etc.
 
 2. Place the images under the following directory:
     ```bash
