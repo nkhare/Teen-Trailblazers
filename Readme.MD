@@ -56,9 +56,9 @@ You can easily add a new career using our Gradio app, which helps generate the n
 ### Step 1: Generate Career JSON Using Gradio
 
 1. Run the Gradio app by executing:
-   ```bash
-   python json_file_generator.py
-   ```
+   
+👉 [JSON File Generator](https://huggingface.co/spaces/cloudyuga/JSON-file-generator-for-career-cards)
+
 2. Enter the career details and generate the JSON file.
 3. The JSON will include career scenarios, dialogues, and outcomes.
 
@@ -68,18 +68,24 @@ You can easily add a new career using our Gradio app, which helps generate the n
 2. Ensure the images are of appropriate resolution for the game interface.
 
 ### Step 3: Place Files into the Game
+1. place the json file under game folder 
+```bash
+ game/careers/<career_category>/career_name.json
+```
+career_category like Healthcare, CivilServices, Education, Engineering etc.
+caree_name like doctor, nurse, teacher, software_developer etc.
 
-1. Place the images under the following directory:
+2. Place the images under the following directory:
     ```bash
     game/images/careers/<career_name>/
     ```
-2. Place the audio files under:
+3. Place the audio files under:
     ```bash
     game/audio/<career_name>/
     ```
-3. Example structure:
+4. Example structure:
     ```bash
-    game/career/doctor/
+    game/careers/Healthcare/
     ├── doctor.json
     game/images/careers/doctor/
     ├── doctor.jpg
@@ -104,8 +110,6 @@ You can easily add a new career using our Gradio app, which helps generate the n
 
 1. Launch the game and select the new career.
 2. Verify the scenarios, images, and audio are displayed correctly.
-
-
 ---
 
 ##### 🚀 Enjoy your career adventure! 🚀
