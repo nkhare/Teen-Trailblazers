@@ -57,7 +57,7 @@ You can easily add a new career using our Gradio app, which helps generate the n
 
 1. Run the Gradio app.
    
-👉 [JSON File Generator](https://huggingface.co/spaces/cloudyuga/JSON-file-generator-for-career-cards)
+      👉 [JSON File Generator](https://huggingface.co/spaces/cloudyuga/JSON-file-generator-for-career-cards)
 
 2. Enter the career details and generate the JSON file.
 3. The JSON will include career scenarios, dialogues, and outcomes.
